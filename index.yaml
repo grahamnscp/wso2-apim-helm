@@ -1,9 +1,30 @@
 apiVersion: v1
 entries:
+  am-single-node:
+  - apiVersion: v2
+    appVersion: 4.3.0-1
+    created: "2024-09-13T14:51:52.715167+01:00"
+    dependencies:
+    - condition: wso2.deployment.dependencies.cluster_mysql
+      name: mysql-am
+      repository: https://helm.wso2.com
+      version: 4.2.0-1
+    - condition: wso2.deployment.dependencies.nfsServerProvisioner
+      name: nfs-server-provisioner
+      repository: https://helm.wso2.com
+      version: 1.1.0
+    description: A Helm chart for the deployment of WSO2 API Manager Single Node.
+    digest: 2a61a4bee7135826b99fde565ae1b8f3045f1b83669adbe61bdc97d9c4f851fc
+    icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
+    name: am-single-node
+    type: application
+    urls:
+    - am-single-node/am-single-node-4.3.0.tgz
+    version: 4.3.0
   apim-all-in-one:
   - apiVersion: v2
     appVersion: 4.3.0-1
-    created: "2024-09-13T14:30:49.919839+01:00"
+    created: "2024-09-13T14:51:52.711173+01:00"
     description: A Helm chart for the deployment of WSO2 API Manager Single Node.
     digest: 9eb1d2cb50cb93413bc1fe2c967d92fd07722a38f7295c144dcf79ad55fbb1da
     icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
@@ -14,7 +35,7 @@ entries:
     version: 4.3.0
   - apiVersion: v2
     appVersion: 4.3.0-1
-    created: "2024-09-13T14:30:49.917973+01:00"
+    created: "2024-09-13T14:51:52.704667+01:00"
     description: A Helm chart for the deployment of WSO2 API Manager Single Node.
     digest: 5fd56b5b2ef02ad19189e510a67d60d4f2974d8af6624a5a8c7f98779d3dfa40
     icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
@@ -23,4 +44,4 @@ entries:
     urls:
     - all-in-one/apim-all-in-one-4.3.0-1.tgz
     version: 4.3.0-1
-generated: "2024-09-13T14:30:49.915939+01:00"
+generated: "2024-09-13T14:51:52.698454+01:00"
