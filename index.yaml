@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  am-all-in-one:
-  - apiVersion: v1
+  apim-all-in-one:
+  - apiVersion: v2
     appVersion: 4.3.0
-    created: "2024-09-13T13:57:32.016399+01:00"
+    created: "2024-09-13T14:04:04.640721+01:00"
     description: A Helm chart for the deployment of WSO2 API Manager Single Node.
-    digest: 85d638da42e3d64ad44038fdc592435ec9e0e1ff23247e2f96fe2da755dcb7dd
+    digest: 52b620c6cc2dfbffafdf9c80138d1b6132a3613cfc3bbc93a2838fbbed26049d
     icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
-    name: am-all-in-one
+    name: apim-all-in-one
     urls:
-    - am-all-in-one-4.3.0-1.tgz
+    - apim-all-in-one-4.3.0-1.tgz
     version: 4.3.0-1
-generated: "2024-09-13T13:57:32.01215+01:00"
+generated: "2024-09-13T14:04:04.618054+01:00"
